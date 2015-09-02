@@ -5,4 +5,4 @@
 3. NEVER, EVER, **_EVER_** TOUCH _includes OR _layouts
 ## WHAT CAN AND CAN'T YOU DO?
 You CAN:
-1. Use Latex! Enclose Latex with $$ or \\( and \\).
+\1. Use Latex! Enclose Latex with $$ or \\( and \\).
