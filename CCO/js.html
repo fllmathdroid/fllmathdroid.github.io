@@ -2,10 +2,14 @@
 <html>
 <head>
   <script>
-  function newP(){
+  function newP(text){
 var np = document.createElement("p");
-var content = document.createTextNode("Hello!");
+var content = document.createTextNode(text);
 np.appendChild(content);
+}
+newP("Hello!!!!");
+document.write("<br>");
+newP(".....")
 </script>
 </head> 
 <body>
