@@ -3,7 +3,7 @@ layout: a
 ---
 <script>
  window.onload=function(){
-  document.write("<span style=\"font-size:5\">end of page</span>");
+  document.body.append(document.createTextNode("<span style=\"font-size:5\">end of page</span>")));
  }
 
 </script>
