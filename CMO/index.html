@@ -1,6 +1,8 @@
 ---
 layout: a
 ---
+<html lant-"en">
+</html>
 <head>
   <title>Myra's CMO Website</title>
   <meta charset="UTF-8" >
@@ -9,53 +11,28 @@ layout: a
     ul {
         list-style: none;
     }
-  </style>
-  <script type="text/javascript">
-    window.onload = function() {
-      alert("ENTERING Myra's CMO page. Stay Happy!");
-    };
-  </script>
-  <style type="text/css">
-    body {color:purple}
-    .message {color:orange}
-  </style>
-</head>
-<body bgcolor= "#A8E4F7">
-<body>
-  <ul>
-    <li>a href="#">Home</a></li>
-    <li>a href="#">Research Topic</a></li>
-  </ul>
-<h1>Voting for the Team Name and Logo</h1>
-<h2>Team Name</h2>
-The Name Choices are <Br>
-  <ul>
-    <li>BlockHeads</li>
-    <li>CleanerBot</li>
-    <li>GreenLeaf Robotics</li>
-    <li>Krato Bots</li>
-    <li>MathBots</li>
-    <li>MathDroid</li>
-  </ul>
-  <p><u>Please vote on Gitter. The Team Name Survey will end on Wednesday.</u></p>
-  <h2 id="myMessage" class="message">Results</h2>
-  <p id="myMessage" class="message"><strong>The winning team name is MathDroid !!!!!</strong></p>
-  <hr>
-  <h2>Team Logo and T-Shirt</h2>
-  <h3>Team Shirt Color</h3>
-  The Color Choices are<Br>
+    ul li {
+      width: 250px;
+      background: #ccc;
+      padding: 20px;
+      border-top: 5px solid #dfdfdf;
+    }
+    ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1em;
+      text-transfrom: uppercase;
+      text-shadow: 0 0 1px rgba(0,0,0,.1);
+    }
+    ul li a:hover{
+      opacity: .9;
+      margin-left: 7px;
+    }
+  </style></head>
+  <body>
     <ul>
-      <li>Lemon (really light yellow)</li>
-      <li>Lime (really light green)</li>
-      <li>Light Blue</li>
-      <li>White (plain)</li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Research Topic</a></li>
     </ul>
-  <p>I will design the T-Shirt on Friday with the winning name, logo, and shirt color. I will show the final product on Monday night or Saturday.</p>
-  <hr>
-  <h3 id="myMessage" class="message">Logo Choices</h3>
-  <p id="myMessage" class="message"><strong>Please ask only one of your parents to cast a vote for the logo and the t-shirt color.</strong></p>
-  <hr>
-  <h2>Results for the Logo and T-Shirt</h2>
-  <p id="myMessage" class="message"><strong>The winning logo is Myra's! </p>
-  <p id="myMessage" class="message">The winning T-Shirt color is light blue!</strong></p>
-</body>
+  </body>
+  </html>
