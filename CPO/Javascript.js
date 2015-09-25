@@ -3,7 +3,7 @@ function valid(){
   if x !=== -1{
   text = "INCORRECT!"
   } else{
-    text = "So, we will all program the induvidual programs, and I will put them together."
+    text = "So, we will all program the induvidual programs, and I will put them together. GOT IT?"
   }
-  ducoment.getElementbyId("1nfo").innerHTML = text;
+  ducoment.getElementbyId("info").innerHTML = text;
 }
